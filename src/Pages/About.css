@@ -1,0 +1,46 @@
+.parallaxsss {
+    /* The image used */
+    background-image: url('../Assert//FruitCover.jpg');
+  
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.prallaxsss_parent{
+  height:"400px";
+  display: "flex";
+  
+  align-items: center;
+  justify-content: center;
+}
+.quest{
+  color: #5D5D5D;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.quest_child{
+  color:#5D5D5D;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) {
+  .hellos{
+      font-size: 5px;
+      margin-left: 40px;
+      
+  }
+}
+
+@media (min-width: 1200px) {
+  .containertanmay{
+      max-width: 850px;
+  }
+}

@@ -1,0 +1,28 @@
+
+.parallaxss {
+    /* The image used */
+    background-image: url('../Video/Eat.gif');
+  
+    /* Set a specific height */
+    min-height: 450px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxssszz {
+    /* The image used */
+    background-image: url('../Video//Blue\ Shoe.gif');
+  
+    /* Set a specific height */
+    min-height: 450px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
